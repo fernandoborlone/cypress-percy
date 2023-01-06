@@ -20,10 +20,21 @@ $ set PERCY_TOKEN=<your token here>
 # Unix
 $ export PERCY_TOKEN=<your token here>
 ```
-> Fonte: https://docs.percy.io/docs/cypress
+> Fonte de apoio: https://docs.percy.io/docs/cypress
 
 ## Execução dos testes
 Execute o comando `npm test` para rodar os testes em modo _headless_.
+
+
+<br>
+
+## Informações adicionais
+Este projeto faz integração com   
+[Github Actions](https://github.com/) possibilitando a integração contínua quando os testes forem executados   
+
+[Slack](https://app.slack.com/) notificando o time a cada bateria de testes.
+
+> Fonte de apoio: [Integração Percy + Github + Actions](https://dev.to/r0nunes/testes-de-regressao-visual-com-cypress-percy-ci-com-github-actions-8hm)
 
 ___
 
