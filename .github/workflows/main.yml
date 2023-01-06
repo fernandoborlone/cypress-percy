@@ -1,0 +1,30 @@
+name: Visual Regression Testing whith Cypress and Percy
+
+on:
+  pull_request:
+    branches:
+      - main
+  
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: Install
+        run: npm install
+        
+      - name: Percy Test
+        uses: percy/exec-actions@v0.3.1
+        with:
+          command: "cypress run"
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+
+  
+  
+  
+  
