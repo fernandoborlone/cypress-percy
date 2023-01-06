@@ -23,7 +23,7 @@ describe('Ticket', () => {
 
   it('Updates agreement base on full name, tickets quantity and type', () => {
     cy.filMandatoryFields(firstName, lastName, email.valido)
-    cy.get('#ticket-quantity').select('4')
+    cy.get('#ticket-quantity').select('3')
     cy.get('#vip').check()
     cy.percySnapshot()
   })
