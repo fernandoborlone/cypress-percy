@@ -30,12 +30,12 @@ Execute o comando `npm test` para rodar os testes em modo _headless_.
 
 ## Informações adicionais
 Este projeto faz integração com   
-[Github Actions](https://github.com/) possibilitando a integração contínua quando os testes forem executados   
+[Github Actions](https://docs.github.com/pt/actions) possibilitando a integração contínua quando os testes forem executados   
 
-[Slack](https://app.slack.com/) notificando o time a cada bateria de testes.
+[Slack](https://docs.percy.io/docs/slack-integration) notificando o time a cada bateria de testes.
 
 > Fonte de apoio: [Integração Percy + Github + Actions](https://dev.to/r0nunes/testes-de-regressao-visual-com-cypress-percy-ci-com-github-actions-8hm)
 
 ___
 
-Um curso da [Escola Talking About Testing](https://talkingabouttesting.coursify.me).
+Deus é bom todo o tempo!
